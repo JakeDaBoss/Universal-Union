@@ -1,0 +1,45 @@
+#Union Protocol: Citadel
+tech_uni_citadel = {
+    cost = 5000
+	area = society
+	tier = 3
+	category = { statecraft }
+	prerequisites = { "tech_galactic_administration" "tech_uni_dark_fields" }
+	weight = 60
+	is_rare = yes
+	
+	gateway = capital
+	
+	potential ={
+		has_civic = civic_civil_protection
+		NOR = { has_authority = auth_machine_intelligence
+	            has_authority = auth_hive_mind }
+	}
+
+	modifier = {
+			planet_stability_add = 10
+			country_influence_produces_add = 1
+    }
+	
+	weight_modifier = {
+	    factor = 3.5
+		modifier = {
+		    factor = 0.5
+			research_leader = {
+			    area = society
+				has_trait = leader_trait_expertise_statecraft
+		    }
+		}
+	}
+	
+	ai_weight = {
+	    factor = 0
+	    modifier = {
+			factor = 0
+		    research_leader = {
+				area = society
+			    has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}

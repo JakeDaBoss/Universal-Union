@@ -1,0 +1,100 @@
+﻿l_spanish:
+ ####################################
+ # Misc
+ ####################################
+ name_list_UNION1:0 "Unión"
+ 
+ ###Species Classes
+ UNI:0 "Unión"
+ ####################################
+ # Species Classes
+ ####################################
+ 
+ UNI:0 "Unión"
+ UNI_desc:1 "Especies basadas en la colección de varias otras especies para uso militar."
+ UNI_plural:0 "representativos"
+ UNI_insult_01:0 "anti-ciudadano"
+ UNI_insult_plural_01:0 "rebeldes"
+ UNI_compliment_01:0 "vanguardia"
+ UNI_compliment_plural_01:0 "vanguardias"
+ UNI_spawn:0 "bebé"
+ UNI_spawn_plural:0 "niños"
+ UNI_sound_01:0 "gruñido"
+ UNI_sound_03:0 "zumbido"
+ UNI_sound_04:0 "temblor"
+ UNI_sound_05:0 "gorgoteo"
+ UNI_organ:0 "intestino"
+ UNI_mouth:0 "boca"
+ ###################################
+ # Civics
+ ####################################
+  
+ #Civil Protection
+  
+ civic_civil_protection:0 "Protección Civil"
+ 
+ civic_civil_protection_desc:0 "Protección Civil o Policia Metropolitana es escencialmente la policia del pensamiento del Combine en todas las areas urbanas en planetas. Las tareas principales de esta policia es proteger a los civiles contra la fauna hostil, destruir influencias de la resistencia y mantener a la población en orden para trabajar. Esta policia civil fue creada por Overwatch para establecer orden en los planetas y ayudar a las fuerzas de defensa de Overwatch dentro de estos. Los agentes de Protección Civil son civiles ordinarios que se han unido "voluntariamente" al Combine; ya sea por mas privilegios, como raciones extras de comida, mejores condiciones de vida, un incremento en la autoridad y estatus entre otros, o por genuina simpatía y identificación con las miras de Combine. Como tal, no están bio-mecanicamente modificados de ninguna forma, como las unidades de Overwatch. §BEstán aquí por tí.§!"
+ 
+ #Administración Combine
+ 
+ civic_combine_administration:0 "Administración Combine"
+ 
+ civic_combine_administration_desc:0 "Un régimen extremadamente autoritario y opresor donde el poder y el mayor grado de libertad descansa con aquellos que están dentro de los rangos más altos del aparato gubernamental o militar. Donde los ciudadanos son forzados a trabajar bajo sustento mínimo y las acciones de uno pueden condenar a todo un distrito a un amplio rango de castigos colectivos y solo aquellos más leales, probados por la información que están dispuestos a dar sobre las faltas de conducta y comportamiento disidente de sus conciudadanos, puede aspirar a tener un mínimo de comodidad y condiciones de vida decentes. §BEl deber es el mayor regalo.§!"
+ ###################################
+ # Decisions
+ ###################################
+ 
+  #Judgment Waiver
+ 
+ decision_initiate_judgment_waiver:0 "§RRenuncia a Juicio§!"
+ 
+ decision_initiate_judgment_waiver_desc:0 "§YAtención equipo de protección de tierra. La Renuncia a Juicio está ahora vigente. La persecución capital es discrecional.§!"
+ 
+ decision_end_judgment_waiver:0 "Levantar Reunicia a Juicio"
+ 
+ decision_end_judgment_waiver_desc:0 "Una vez el orden sea restablecido, la Renuncia a Juicio ha de ser levantada con el objetivo de retornar a la normalidad y mantener el estatus de conformidad."
+
+ #Autonomous Judgment
+
+ decision_initiate_autonomous_judgment:0 "§BIniciar Juício Autónomo§!"
+
+ decision_initiate_autonomous_judgment_desc:0 "§YAtención equipo de protección de tierra. El Juício Autónomo está ahora vigente. La sentencia es discrecional.§!"
+
+ decision_end_autonomous_judgment:0 "Levantar Juício Autónomo"
+
+ decision_end_autonomous_judgment_desc:0 "Una vez el orden sea restablecido, el Juício Autónomo ha de ser levantada con el objetivo de retornar a la normalidad y mantener el estatus de conformidad."
+ ###################################
+ # Technologies
+ ###################################
+ 
+ #Dark Energy Field
+ 
+ tech_uni_dark_fields:0 "§YCampos de Energía Oscura§!"
+ 
+ tech_uni_dark_fields_desc:0 "El legado de la Unión es vasto, con incontables herramientas para guiar a aquellos que están descarriados, unidos bajo una sola bandera, pero para que esto pueda ser conseguido, deben ser ideados metodos eficientes de producción de energía, ésta es la solución final, con potencial ilimitado. §MCon poder ilimitado.§!"
+ 
+ #Union Protocol: Citadel
+ 
+ tech_uni_citadel:0 "§YProtocolo de la Unión: Ciudadela§!"
+ 
+ tech_uni_citadel_desc:0 "La ciudadela estaba localizada en Ciudad-17, y se parecía a un enorme rascacielos, elevandose varios kilometros desde el nivel del suelo, y extendiendose cierta distancia bajo tierra también, coronada por un Reactor de Energía Oscura. Su portal asociado constituía el medio primario de comunicación con las fuerzas Combine fuera del planeta, hasta que fue destruido junto con toda la estructura, pero no seremos disuadidos, nada puede detener la Unificación, lo reconstruiremos."
+ ###################################
+ # Buildings
+ ###################################
+ 
+ building_uni_citadel:0 "§YCiudadela de la Unión§!"
+ 
+ building_uni_citadel_desc:0 "El centro de gobierno de la Unión, reconstruido después de su destrucción en El Levantamiento, una vez capaz de crear un pasaje inter-dimensional al Supramundo, la capital de la Unión, desafortunadamente, esta capacidad no pudo ser recuperada. §BDebemos encontrar otra manera...§!"
+ ###################################
+ # Empire Design
+ ###################################
+ 
+ START_SCREEN_UNI:0 "Eramos ignorantes, auto-destructivos, derrochadores, ingenuos...hasta que Ellos llegaron, la Unión, y finalmente abrieron nuestros ojos y nos hicieron darnos cuenta de lo infantiles que fuímos, nos hicieron darnos cuenta de nuestras fallas como especie, cuan imprudentes y mezquinos, peleando entre nosotros...cuando pudimos haber sido unidos como uno, pero nos enseñaron, y ahora estamos completos...pero los demonios de un pasado egoista y maligno nos costaron caro, ahora estamos aislados, lejos de la Unión, ahora debemos abrirnos paso por esta galaxia, reunirnos con ellos, sin importar el costo.                                                                                                                                                                                                                                             No seremos disuadidos, por que somos parte de un todo, trabajamos como uno, y atacamos como uno, aquellos que se nos opongan aprenderán através de sangre y desesperación lo fuerte que un pueblo unido puede llegar a ser. Por que no conocemos el miedo, por que nos enseñaron que nunca debemos tener miedo, ellos son debiles, nosotros fuertes...somos La Unión.                                                                                                                                                                                                                                             §BA la victoria, los uniremos a todos.§!"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

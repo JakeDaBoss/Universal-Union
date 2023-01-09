@@ -1,0 +1,13 @@
+# Generated species derive their names from here
+
+### UNION
+
+UNI = {
+	union = {
+		name = "Universal Union"
+		plural = "Union"
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "UNION1"
+	}
+}

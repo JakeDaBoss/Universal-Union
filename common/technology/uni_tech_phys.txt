@@ -1,0 +1,46 @@
+#Dark Energy Fields
+tech_uni_dark_fields = {
+    cost = 4200
+	area = physics
+	tier = 3
+	category = { particles }
+	prerequisites = { "tech_galactic_administration" "tech_power_plant_4" }
+	weight = 60
+	is_rare = yes
+
+	potential = {
+		has_civic = civic_civil_protection
+		NOR = { has_authority = auth_machine_intelligence
+		        has_authority = auth_hive_mind }
+	}
+	
+	modifier = {
+	    country_resource_max_energy_add = 3000
+	}
+	
+	
+	weight_modifier = {
+	    factor = 3
+		modifier = {
+		    factor = 1.25
+			research_leader = {
+			    area = physics
+				has_trait = "leader_trait_expertise_particles"
+	        }
+		}
+	}
+	
+	ai_weight = {
+	    factor = 0
+		modifier = {
+		    factor = 0
+			research_leader = {
+			    area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+	
+	
+	
