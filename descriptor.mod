@@ -1,0 +1,15 @@
+version="v1.2"
+tags={
+	"Leaders"
+	"Utilities"
+	"Technologies"
+	"Total Conversion"
+	"Species"
+	"Sound"
+	"Diplomacy"
+	"Military"
+	"Buildings"
+	"Galaxy Generation"
+}
+name="[HL2] Universal Union / Combine Empire Modification"
+supported_version="3.6.1"
