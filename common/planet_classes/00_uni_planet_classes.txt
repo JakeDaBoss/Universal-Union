@@ -36,7 +36,7 @@ pc_overworld = {
 
 	atmosphere_color		= hsv { 0 0.53 0.99 }		#DONE
 	atmosphere_intensity	= 1.0
-	atmosphere_width		= 0.8
+	atmosphere_width		= 1.5
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.dds"
 
