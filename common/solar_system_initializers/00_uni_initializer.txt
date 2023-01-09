@@ -6,7 +6,6 @@
 ### Aleph System
 uni_initializer = {
 	name = "uni_system"
-
 	class = "sc_aleph"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -17,7 +16,7 @@ uni_initializer = {
 		radius = 30
 	}
 
-	#flags = { empire_home_system }
+	flags = { empire_home_system is_overworld_flag}
 
 	usage = custom_empire
 
@@ -50,7 +49,7 @@ uni_initializer = {
 		has_ring = yes
 		deposit_blockers = none
 		modifiers = none
-		flags = { ignore_startup_effect }
+		flags = { ignore_startup_effect is_overworld_flag }
 
 		init_effect = {
 			prevent_anomaly = yes
