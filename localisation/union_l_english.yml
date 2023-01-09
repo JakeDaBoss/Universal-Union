@@ -1,0 +1,151 @@
+﻿l_english:
+ ####################################
+ # Misc
+ ####################################
+
+ planet_judgment_waiver:0 "Initiate Judgment Waiver"
+ planet_judgment_waiver_desc:0 "Mass mobilization in this planet has been authorized, order shall prevail. §BDissidence will not be tolerated.§!"
+ planet_autonomous_judgment:0 "Initiate Autonomous Judgment"
+ planet_autonomous_judgment_desc:0 "Partial mobilization in this planet has been authorized, suspicious anticitizen and malcontention activity detected. §BConformity will be restored.§!"                  "
+ mod_planet_enforcers_energy_upkeep_add:0 "Enforcer Job Energy Upkeep"
+ mod_planet_buildings_energy_cost_mult:0 "Planetary Building Energy Cost"
+ mod_planet_buildings_minerals_cost_mult:0 "Planetary Bulding Mineral Cost"
+ mod_planet_jobs_specialist_alloys_produces_mult:0 "Specialist Job Alloy Output"
+ mod_planet_jobs_specialist_consumer_goods_produces_mult:0 "Specialist Job Consumer Goods Output"
+ mod_planet_jobs_food_upkeep_mult:0 "Worker Food Upkeep"
+ mod_planet_jobs_energy_upkeep_mult:0 "Worker Energy Upkeep"
+ mod_country_resource_max_energy_add:0 "Maximum Energy Capacity"
+ 
+ # §Ywords§! = Yellow Words
+ # §Rwords§! = Red Words
+ # §Gwords§! = Green Words
+ # §Bwords§! = Blue Words
+ # §Swords§! = Orange Words
+ # §Mwords§! = Violet Words
+ # \n£blocker = Blocker Picture
+ # \n£society = Society Picture
+ # \n£engineering = Engineering Picture
+ # \n£physics = Physics Picture
+ # \n£energy = Energy Picture
+ # \n£minerals = Minerals Picture
+ 
+ name_list_UNION1:0 "Union"
+ 
+ ###Species Classes
+ UNI:0 "Union"
+ ####################################
+ # Species Classes
+ ####################################
+ 
+ UNI:0 "Union"
+ UNI_desc:1 "Species based around the collection of various other species for military use."
+ UNI_plural:0 "representatives"
+ UNI_insult_01:0 "anti-citizen"
+ UNI_insult_plural_01:0 "rebels"
+ UNI_compliment_01:0 "vanguard"
+ UNI_compliment_plural_01:0 "vanguards"
+ UNI_spawn:0 "baby"
+ UNI_spawn_plural:0 "children"
+ UNI_sound_01:0 "growling"
+ UNI_sound_02:0 "grunting"
+ UNI_sound_03:0 "humming"
+ UNI_sound_04:0 "trembling"
+ UNI_sound_05:0 "gurgling"
+ UNI_organ:0 "gut"
+ UNI_mouth:0 "mouth"
+ 
+ ###################################
+ # MILITARY
+ ###################################
+
+ UU_xxCP_ORD:0 "$O$ "
+
+ ###################################
+ # Civics
+ ###################################
+  
+ #Civil Protection
+  
+ civic_civil_protection:0 "Civil Protection"
+ 
+ civic_civil_protection_desc:0 "Civil Protection or Metropolitan Police is essntially the combine's thought police force in all urban areas on planets. The main tasks of this police is protect civilians against hostile fauna, destroy resistance influences, and keep the people in order for working. This civilian police force was created by Overwatch to establish an order on planets and help Overwatch defense forces inside them. Civil Protection agents are ordinary human who have "willingly" joined the Combine; either for more privileges, such as additional food rations, better living conditions, an increase in authority and status among others, or out of genuine sympathy and identification with the Combine's aims. As such, they are not bio-mechanically modified in any way, unlike the overwatch units. §BThey're here for you.§!"
+ 
+ #Combine Administration
+ 
+ civic_combine_administration:0 "Combine Administration"
+ 
+ civic_combine_administration_desc:0 "An extremely authoritarian and opressive regime where power and the highest degree of freedom lie with those that are within the uppermost ranks of the government or military apparatus. Where citizens are forced to work under minimal sustenance and the actions of one can condemn a whole district to a wide range of collective punishments and only those most loyal, proven by the information they are willing to give about the misconduct and dissident behaviour of their fellow citizens, can rise to have a minimum of comfort and decent living conditions. §BDuty is the greatest gift.§!"
+ 
+ ###################################
+ # Decisions
+ ###################################
+ 
+ #Judgment Waiver
+ 
+ decision_initiate_judgment_waiver:0 "§RJudgment Waiver§!"
+ 
+ decision_initiate_judgment_waiver_desc:0 "§YAttention all Ground Protection teams. Judgment Waiver is now in effect. Capital prosecution is now discretionary.§!"
+ 
+ decision_end_judgment_waiver:0 "Lift Judgment Waiver"
+ 
+ decision_end_judgment_waiver_desc:0 "Once order is restablished, the Judgment Waiver is to be lifted in order to return to normality and maintain conformity status."
+
+ #Autonomous Judgment
+
+ decision_initiate_autonomous_judgment:0 "§BInitiate Autonomous Judgment§!"
+
+ decision_initiate_autonomous_judgment_desc:0 "§YAttention all Ground Protection teams. Autonomous Judgment is now in effect. Sentencing is now discretionary.§!"
+
+ decision_end_autonomous_judgment:0 "Lift Autonomous Judgment"
+
+ decision_end_autonomous_judgment_desc:0 "Once order is restablished, the Autonomous Judgment is to be lifted in order to return to normality and maintain conformity status."
+
+ ###################################
+ # Technologies
+ ###################################
+ 
+ #Dark Energy Field
+ 
+ tech_uni_dark_fields:0 "§YDark Energy Fields§!"
+ 
+ tech_uni_dark_fields_desc:0 "The legacy of the Union is vast. with uncountable tools to guide those which are astray, united under a sole banner, but for this to be accomplished, efficient methods of energy production must be devised, this is the final solution, with unlimited potential. §MWith unlimited power.§!"
+ 
+ #Union Protocol: Citadel
+ 
+ tech_uni_citadel:0 "§YUnion Protocol: Citadel§!"
+ 
+ tech_uni_citadel_desc:0 "The Citadel was located in City-17, and resembled a massive skyscraper, rising several kilometers from ground level, and extending some distance underground as well, crowned by a Dark Energy Reactor. Its associated portal was the primary means of communication with off-world Combine forces, until it was destroyed along with the entire structure, but we shall not be deterred, nothing can stop the Unification, we will rebuild it."
+ 
+ #Union Protocol: Memory Manipulation
+ 
+ tech_uni_manipulation:0 "§YUnion Protocol: Memory Manipulation§!"
+  
+ tech_uni_manipulation_desc:0 "Our extensive knowledge in neuro-science has permitted us to comprehend and manipulate memories as we see fit, we can use this opportunity to re-arrange and modify the memories of our armies and give them a moral boost and a fierce combative spirit in the battlefield."
+ 
+ ###################################
+ # Buildings
+ ###################################
+ 
+ building_uni_citadel:0 "§YUnion Citadel§!"
+ 
+ building_uni_citadel_desc:0 "The center of the Union government, rebuilt after its destruction in The Uprising, once capable of creating an inter-dimensional passage to the Overworld, the Union capital, unfortunately, this capability was unable to be recovered. §BWe must find another way...§!"
+
+ ###################################
+ # Empire Design
+ ###################################
+ 
+ START_SCREEN_UNI:0 "We were ignorant, self-destructive, wasteful, naive...until They came, the Union, and finally opened our eyes and made us realise how childish we were, made us realise our flaws as a species, how reckless and petty, fighting among ourselves...when we could be united as one, but they teached us, and now we are whole...but the demons of a malignant and egotistical past costed us dearly, now we are stranded, far from the Union, now we must make way through this galaxy, reunite with them, no matter the cost.                                                                                                                                       We will not be deterred, for we are part of a whole, we work as one, and strike as one, those who oppose us shall learn through blood and despair how strong a united people can really be. For we don't know fear, because they teached us we are never to be afraid, they are lesser, we are strong...we are the Union.                                                                                                                                                                                                                                      §BOnwards to victory, we shall unite them all.§!"
+ 
+ ###################################
+ # Fallen Empire
+ ###################################
+
+ personality_personality_fallen_empire_authoritarian:0 "Paranoid Conquerors"
+
+ personality_personality_fallen_empire_authoritarian_desc:0 "This Fallen Empire has an strongly ingrained culture of slavery in a caste system, they will prey on others and are higly aggresive with those who they percieve as a threat, being too close to this empire might not be a wise idea."
+
+
+ 
+ 
+ 
+ 

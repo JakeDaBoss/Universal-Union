@@ -1,0 +1,200 @@
+portraits = {
+	# union
+	union1 = { texturefile = "gfx/portraits/union1.dds"	}
+	union2 = { texturefile = "gfx/portraits/union2.dds"	}
+	union3 = { texturefile = "gfx/portraits/union3.dds"	}
+	union4 = { texturefile = "gfx/portraits/union4.dds"	}
+	union5 = { texturefile = "gfx/portraits/union5.dds"	}
+	union6 = { texturefile = "gfx/portraits/union6.dds"	}
+	unionloyal1 = { texturefile = "gfx/portraits/unionloyal1.dds" }
+	unionloyal2 = { texturefile = "gfx/portraits/unionloyal2.dds" }
+	unionloyal3 = { texturefile = "gfx/portraits/unionloyal3.dds" }
+	unionloyal4 = { texturefile = "gfx/portraits/unionloyal4.dds" }
+	unionloyal5 = { texturefile = "gfx/portraits/unionloyal5.dds" }
+	unionloyal6 = { texturefile = "gfx/portraits/unionloyal6.dds" }
+	unionloyal7 = { texturefile = "gfx/portraits/unionloyal7.dds" }
+	unionloyal8 = { texturefile = "gfx/portraits/unionloyal8.dds" }
+	union_admiral1 = { texturefile = "gfx/portraits/union_admiral1.dds"	}
+	union_general1 = { texturefile = "gfx/portraits/union_general1.dds"	}
+	union_general2 = { texturefile = "gfx/portraits/union_general2.dds"	}
+	union_governor1 = { texturefile = "gfx/portraits/union_governor1.dds"	}
+	union_scientist1 = { texturefile = "gfx/portraits/union_scientist1.dds"	}
+	union_breen1 = { texturefile = "gfx/portraits/union_breen1.dds"	}
+}
+
+portrait_groups = {
+	union_human = {
+		default = union1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			    trigger = {
+				    ruler = { gender = male }
+				}
+				portraits = {
+					union1
+					union2
+					union3
+					union6
+					unionloyal1
+					unionloyal2
+					unionloyal3
+					unionloyal4
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+					union_breen1
+				}
+			}
+			add = {
+			    trigger = {
+				    ruler = { gender = female }
+			    }
+				portraits = {
+				    union4
+					union5
+					unionloyal5
+					unionloyal6
+					unionloyal7
+					unionloyal8
+					union6
+					union_governor1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					union1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					union1
+					union2
+					union3
+					union4
+					union5
+					union6
+					unionloyal1
+					unionloyal2
+					unionloyal3
+					unionloyal4
+					unionloyal5
+					unionloyal6
+					unionloyal7
+					unionloyal8
+					union_admiral1
+                    union_scientist1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					union_general1
+					union_general2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					union_governor1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					union_governor1
+					union_breen1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					union_general2
+					union_governor1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					union_governor1
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					union_general1
+					union_general2
+					union_scientist1
+					union_governor1
+					union_admiral1
+				}
+			}
+		}
+				
+	}
+}

@@ -1,0 +1,112 @@
+decision_initiate_judgment_waiver = {
+    owned_planets_only = yes
+	sound = "event_protectionresponse_5_spkr_custom"
+	icon = decision_initiate_jugdment_waiver
+	
+	resources = {
+	    category = decisions
+		cost = {
+		    influence = 50
+		}
+    }
+		
+	potential = {
+	    owner = {  
+			    is_regular_empire = yes
+		        has_civic = civic_civil_protection
+				}
+		NOR = { 
+			has_modifier = crime_lord_deal
+			has_modifier = anticrime_campaign
+			has_modifier = planet_judgment_waiver
+			has_modifier = planet_autonomous_judgment
+		}
+	}
+	
+	effect = {
+		add_modifier = { modifier = "planet_judgment_waiver" days = -1 }
+	}
+	
+	ai_weight = {
+	        weight = 0
+	}
+}
+
+decision_end_judgment_waiver = {
+	owned_planets_only = yes
+	sound = event_administrative_work_02
+	icon = decision_initiate_jugdment_waiver
+
+	resources = {
+		category = decisions
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		has_modifier = planet_judgment_waiver
+	}
+
+	effect = {
+		remove_modifier = planet_judgment_waiver 
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_initiate_autonomous_judgment = {
+	owned_planets_only = yes
+	sound = "event_protectionresponse_4_spkr_custom"
+    icon =  decision_initiate_jugdment_waiver 
+
+	resources = {
+		category = decisions
+        cost = {
+			 influence = 20
+		}
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes 
+		    has_civic = civic_civil_protection
+	    }
+	    NOR = {
+			has_modifier = planet_autonomous_judgment
+			has_modifier = crime_lord_deal
+			has_modifier = anticrime_campaign
+			has_modifier = planet_judgment_waiver
+		}
+	}
+  
+    effect = {
+		add_modifier = { modifier = "planet_autonomous_judgment" days = -1 }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_end_autonomous_judgment = {
+	owned_planets_only = yes
+	sound = event_administrative_work_02
+	icon = decision_initiate_jugdment_waiver
+
+	resources = {
+		category = decisions
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		has_modifier = planet_autonomous_judgment
+	}
+
+	effect = {
+		remove_modifier = planet_autonomous_judgment
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -1,0 +1,68 @@
+"Universal Union"
+={
+	key="Universal Union"
+	ship_prefix="CMB"
+	species={
+		class="UNI"
+		portrait="union_human"
+		name="Human"
+		plural="Humans"
+		adjective="Unionists"
+		species_bio="The Combine, abbreviated as \"CMB\" or referred to as \"Our Benefactors\" by human propaganda, it's an inmense and powerful interdimensional empire, composed of both allied and enslaved species. The goal of the Combine is to buld an interdimensional dominion known as the Universal Union .The reason for this is unknown yet.                                                                                                                                                                                               The Combine manipulates species through a variety of means, including bioengineering and artificial implantation. The products of this reenginering process are known as \"synths\", bio-mechanical organisms that serves a variety of functions within the empire. This process results in a highly mobile and adaptive military force wich is able to respond to any threat and crush any opossition. "
+		name_list="UNION1"
+		trait="trait_decadent"
+		trait="trait_sedentary"
+		trait="trait_intelligent"
+		trait="trait_industrious"
+	}
+	name="Universal Union"
+	adjective="Universal Union"
+	authority="auth_dictatorial"
+	flags={ UNI custom_start_screen }
+	government="gov_military_dictatorship"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="UU"
+			file="flag_uu_1b.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"black"
+			"black"
+		}
+	}
+	ruler={
+		gender=male
+		name="314-URB-LOC-0021"
+		portrait="union_governor1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Council Master"
+		heir_title="Head Advisor"
+		ruler_title_female="Council Mastress"
+		heir_title_female="Head Advisor"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_civil_protection"
+		"civic_combine_administration"
+	}
+}
