@@ -19,8 +19,10 @@ uni_world:0 "Overworld"
 uni_star:0 "Aleph Singularity"
 uni_world02:0 "Experiment Alpha"
 uni_world03:0 "Experiment Zeta"
+uni_world04:0 "Experiment Omicron"
 uni_asteroid01:0 "Resource Site Vector"
 uni_asteroid02:0 "Resource Site Kilo"
+uni_asteroid03:0 "Experiment Omicron I"
 
  ####################################
  # Misc
