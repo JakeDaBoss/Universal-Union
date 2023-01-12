@@ -5,7 +5,7 @@ event = {
    hide_window = yes
    is_triggered_only = yes
    immediate = {
-       # Palaven Start
+       # Overworld Start
        every_country = {
             every_owned_planet = {
                 limit = { has_planet_flag = is_overworld_flag }
