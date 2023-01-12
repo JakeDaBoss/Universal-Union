@@ -160,7 +160,8 @@ uni_asteroid03:0 "Experiment Omicron I"
  ###################################
  
  START_SCREEN_UNI:0 "We were ignorant, self-destructive, wasteful, naive...until They came, the Union, and finally opened our eyes and made us realise how childish we were, made us realise our flaws as a species, how reckless and petty, fighting among ourselves...when we could be united as one, but they teached us, and now we are whole...but the demons of a malignant and egotistical past costed us dearly, now we are stranded, far from the Union, now we must make way through this galaxy, reunite with them, no matter the cost.                                                                                                                                       We will not be deterred, for we are part of a whole, we work as one, and strike as one, those who oppose us shall learn through blood and despair how strong a united people can really be. For we don't know fear, because they teached us we are never to be afraid, they are lesser, we are strong...we are the Union.                                                                                                                                                                                                                                      §BOnwards to victory, we shall unite them all.§!"
- 
+ START_SCREEN_RES:0 "TBA"
+
  ###################################
  # Fallen Empire
  ###################################

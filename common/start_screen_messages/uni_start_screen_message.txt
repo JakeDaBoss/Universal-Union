@@ -12,3 +12,12 @@ part = {
 		has_country_flag = UNI
 	}		
 }
+
+part = {
+	location = 0
+	localization = "START_SCREEN_RES"
+	
+	trigger = {
+		has_country_flag = RES
+	}		
+}

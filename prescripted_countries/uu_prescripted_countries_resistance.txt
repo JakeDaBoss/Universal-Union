@@ -1,0 +1,68 @@
+"Resistance"
+={
+	key="Lambda Resistance"
+	ship_prefix="RES."
+	species={
+		class="RES"
+		portrait="union_human"
+		name="Human"
+		plural="Humans"
+		adjective="Resistance"
+		species_bio="The Resistance was the semi-organised group operating largely in clusters and cells to oppose the Combine Rule of Earth. Following the collapse of the Combine Superportal on Earth, they have been allowed to grow and prosper in organising better and harder resistance."                                                                                                                                                                                               The Combine manipulates species through a variety of means, including bioengineering and artificial implantation. The products of this reenginering process are known as \"synths\", bio-mechanical organisms that serves a variety of functions within the empire. This process results in a highly mobile and adaptive military force wich is able to respond to any threat and crush any opossition. "
+		name_list="RESIS1"
+		trait="trait_decadent"
+		trait="trait_sedentary"
+		trait="trait_intelligent"
+		trait="trait_industrious"
+	}
+	name="Human Resistance"
+	adjective="Resistance"
+	authority="auth_oligarchic"
+	flags={ RES custom_start_screen }
+	government="gov_military_dictatorship"
+	planet_name="Earth"
+	planet_class="pc_overworld"
+	system_name="uni_system"
+	initializer="uni_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="UU"
+			file="flag_uu_1b.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"black"
+			"black"
+		}
+	}
+	ruler={
+		gender=male
+		name="314-URB-LOC-0021"
+		portrait="union_governor1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Council Master"
+		heir_title="Head Advisor"
+		ruler_title_female="Council Mastress"
+		heir_title_female="Head Advisor"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_civil_protection"
+		"civic_combine_administration"
+	}
+}
