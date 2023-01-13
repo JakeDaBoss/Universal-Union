@@ -19,7 +19,7 @@
 	adjective="Universal Union"
 	authority="auth_dictatorial"
 	flags={ UNI custom_start_screen }
-	government="gov_military_dictatorship"
+	government="gov_advis_lead"
 	planet_name="Overworld"
 	planet_class="pc_overworld"
 	system_name="uni_system"
