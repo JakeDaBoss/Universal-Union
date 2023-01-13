@@ -9,7 +9,7 @@ uni_initializer_DESC:0 "The Aleph System is thought to be the homeworld of the C
 uni_system:0 "Aleph System"
 pc_overworld:0 "Combine Overworld"
 pc_overworld_desc:0 "An incomprehensibly inhospitable planet to most known biological populations, largely only available to roam freely by the synthetics of the Union and the Advisors themselves."
-
+UNI_LEADER:0 "Sovereign Advisor"
 
  ####################################
  # Planets
